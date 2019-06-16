@@ -36,11 +36,4 @@ module.exports = function(app) {
  
   });
 
-  // clear out the table if it gets cluttered while testing
-
-  app.post("/api/clear", function(req, res) {
-    // Empty out the arrays of data
-    friendData.length = 0;
-    res.json({ ok: true });
-  });
 };
