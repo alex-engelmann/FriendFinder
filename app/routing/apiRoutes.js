@@ -1,7 +1,5 @@
 // ===============================================================================
 // LOAD DATA
-// We are linking our routes to a series of "data" sources.
-// These data sources hold arrays of information on friendData.
 // ===============================================================================
 
 var friendData = require("../data/friendData");
@@ -33,14 +31,12 @@ module.exports = function(app) {
     // Note the code here. Our "server" will respond to requests and let users know their matches.
     // It will do this by sending out the value "true" have a table
     // req.body is available since we're using the body parsing middleware
-
+    friendData.push(req.body);
     //TODO compatibility logic
  
   });
 
-  // ---------------------------------------------------------------------------
-  // I added this below code so you could clear out the table while working with the functionality.
-  // Don"t worry about it!
+  // clear out the table if it gets cluttered while testing
 
   app.post("/api/clear", function(req, res) {
     // Empty out the arrays of data
