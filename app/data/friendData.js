@@ -39,7 +39,7 @@ var friendArray = [
   },
 
   {
-    "name": "Zidane",
+    "name": "Zinedine",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg",
     "scores":[
       5,
