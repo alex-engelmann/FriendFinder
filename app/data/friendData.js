@@ -1,7 +1,7 @@
 // ===============================================================================
 // DATA
 // Below data will hold all of the available friends
-// Initially we just set it equal to a "dummy" friend
+// There's a few in there as a start and for testing
 // ===============================================================================
 
 var friendArray = [
