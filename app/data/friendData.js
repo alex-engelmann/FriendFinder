@@ -4,10 +4,13 @@
 // There's a few in there as a start and for testing
 // ===============================================================================
 
+
+// Wikipedia images won't work, CORB will occur.  Use imgur images.  Can't control user submitted images,
+// that's a limitation of this project for now
 var friendArray = [
   {
-    "name":"Ahmed",
-    "photo":"https://upload.wikimedia.org/wikipedia/commons/a/a4/Sikh_man%2C_Agra_10.jpg",
+    "name":"Wolverine",
+    "photo":"https://i.imgur.com/KIQeG6q.png",
     "scores":[
         1,
         1,
@@ -22,8 +25,8 @@ var friendArray = [
       ]
   },
   {
-    "name":"Stephen",
-    "photo": "https://en.wikipedia.org/wiki/Stephen_Colbert#/media/File:Stephen_Colbert_December_2017.jpg",
+    "name":"Michael",
+    "photo": "https://i.imgur.com/T9f9rgJ.jpg", //Michael Palin from Monty Python
     "scores":[
       3,
       3,
@@ -39,8 +42,8 @@ var friendArray = [
   },
 
   {
-    "name": "Zinedine",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg",
+    "name": "Keanu",
+    "photo": "https://i.imgur.com/PuMc9hs.jpg",
     "scores":[
       5,
       5,
